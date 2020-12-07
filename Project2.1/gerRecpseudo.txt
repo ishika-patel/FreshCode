@@ -1,0 +1,21 @@
+else
+    1. find morst similar user to username
+    minVal
+    for loop traverse array of users(i)
+    do inner for loop on if user[i] is not usernme && user[i].getCountReadBooks()/ user i has not rea any books
+    SSD = 0 //smallest SSD value
+    go over all the ratings (j)
+        SSD = SSD + (user[ben index].getRsting[j] - user;[i].get ratings[j])^2
+        Comapre SSD with MIN
+            replce minVal with new if smaller;
+            save index of smallest mostSimialr_index
+
+    2. provide recommendations
+    We know user_index and mostSimilar_index
+    
+    for loop go thoroguh all ratings k 
+        if ben rating [k] is 0 && most similr user.rating[k] is 3, 4, 5
+        
+        if true one book to reccommend
+    
+}

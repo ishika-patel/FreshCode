@@ -1,0 +1,68 @@
+void Library:: getRecommendations(string username){ // prints fist 5 books recs
+    bool userLocation = false;
+    int accessUser=-1;
+    int accessBook = -1;
+    int scores[numUsers];
+    int minSSD = 202020;
+    int minSSDIndex = 0;
+    int recCountTotal = 0;
+    int recPrint = 0;
+ 
+ // find out where the username we are finding a book for exists/ if it exists
+    for (int i  = 0; i<numUsers; i++){
+        if(makeLower(users[i].getUsername()) == makeLower(username)) { //goes through all user objects to see if the user is present, lowercase font
+            userLocation = true;
+            accessUser = i; //when the user is found the index they are found at are stored
+        }
+    }
+    
+    if (!userLocation){
+        cout << username << " does not exist." << endl;
+    }
+ //initialize all the scores 
+    else {
+        for(int i = 0; i < numUsers; i++){
+            scores[i] = 0;
+// then repalce them with respective SSD values
+            for (int k = 0; k < numBooks; k++){
+                scores[i] = scores[i] + pow(users[accessUser].getRatingAt(k) - users[i].getRatingAt(k),2); // scores are a summation of all the differences of squares
+            }
+// locate the min score vlaue and where its index is 
+            if (scores[i] > 0 && scores[i]<minSSD){
+                minSSD = scores[i];
+                minSSDIndex = i; //index of the person that is recommending
+            }
+        }
+        
+//find the total possible number of recs to be given
+        for(int j = 0; j< numBooks; j++) {
+            if(users[accessUser].getRatingAt(j) == 0 && (users[minSSDIndex].getRatingAt(j) >=3 && users[minSSD].getRatingAt(j)<=5)) {
+                recCountTotal++;
+            }
+        }
+// no recs possible
+        if(recCountTotal == 0){ 
+            
+             cout << "There are no recommendations for " << username << " at present." << endl;
+        }
+// this occurs if there are recs
+        else { 
+            cout << "Here is the list of recommendations" << endl; //outside becuase we only print this once at top
+// go through the process of recommending books
+            for (int k = 0; k <numBooks; k++){
+                if(users[accessUser].getRatingAt(k) == 0 && (users[minSSDIndex].getRatingAt(k) >=3 && users[minSSD].getRatingAt(k)<=5)) { //only recommending if user doesnt have a rec for the book and comare user has a rec >3
+                    recPrint++;
+                    if (recPrint<=5){  //only recommend books
+                        cout<< books[k].getTitle() << " by " << books[k].getAuthor()<< endl; // print recommended book + author
+                    }
+                    else {
+                         break; //otherwise break the if statement and love back to the for loop
+                    }
+                }
+            }
+            
+        }
+    }
+}
+    
+    

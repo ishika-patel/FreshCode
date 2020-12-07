@@ -1,0 +1,36 @@
+OOP Notes
+ 
+ - data stored in an object are called data members
+    - data members are encapsulated: hidden from other parts of thr program and only acessible through own member functions
+ - functions that work on data members are member functions
+ 
+ class defenition - header file ClassName.h
+ 
+ #ifndef CLASSNAME_H
+ #definw CLASSNAME_H
+ 
+     class NameOfClass {
+     public:
+     // the public interfase
+     private
+     // data members
+     }
+endif 
+     
+ mutators: modifies the data members of the object (set method)
+ accessor: function that queries data (get method) const;
+ 
+ implementatition file
+ #include <iostream>
+ #include <iomanip>
+ #include "CLASSNAME.h"
+ using namespace std;
+ 
+ driver file: includes the main
+ 
+ compile from commmand line (because you are combining multiple files)
+    - save before compiling in command line
+    - only the cpp files in the g++ -std=c++11 filename.cpp filename.cpp
+    - unity.cpp just has the include statements
+    
+turn in .h, .cpp and driver

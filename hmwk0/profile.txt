@@ -1,0 +1,11 @@
+——Student Profile——
+
+Name: Ishika Patel
+
+Major/minor: CS
+
+Programming experience: None
+
+What do you expect to learn in this course?
+I expect to learn the basics to programming in C++.
+This will set me on my lifelong journey as a learner.

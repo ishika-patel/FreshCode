@@ -1,0 +1,153 @@
+- convert for loop to while loop notes
+-call by refernce: passing from the actual argument, used when the function needs to change the value of one or more arguments.
+ARRAYS AND STREAMS
+
+- objects of type file stream are created to "store" the file being reached
+
+string name;
+double value
+if ( in_file >> name >> value) {
+// process input
+}
+    - used to read items separated by white space
+    - use if the file is structured as so
+    - does not work well if file has empty lines
+   
+get line 
+- getline returns boolean value, when it reaches the end it returns a zero and that show you know there are no more lines left
+- getline(in_file, line) // line is variable to store the file line by line, value of line will get overwritten in while loop
+- get line is reading a whole line uo to the \n
+- if the line is empty, line will store an empty string
+
+reading character including whitespace
+char ch; // cannot have a charater that is empty
+in_file.get(ch); // not happy when there is an empty line
+// digit can be casted as an integer
+
+
+writing to a stream
+ofstream out_file; // create output stream value
+out_file.open("output.txt"); // open the file 
+if In_file.fail()) { retrun 0; } //chekc for failure to open
+out_file << name << " " << valye. << endl; // write file
+
+example of reading data
+#include <cctype>
+#include <fstream>
+#include <iostream>
+#include <iomanip>
+#include <sstream>
+#include <string>
+
+using namespace std;
+
+void readWorld(string line, string country[], string area[], string pop[], int count, int SIZE);
+int Split(string sent, char sep, string a[], int max);
+
+int main()
+{
+   ifstream in;
+   in.open("world_area_pop.txt"); // Open input file
+
+   ofstream out;
+   out.open("world_density.txt"); // Open output file
+
+   string line; // create variables
+   int count = 0;
+   const int SIZE = 20;
+   string country[SIZE];
+   string area[SIZE];
+   string pop[SIZE];
+
+   // Read lines from file
+   while (getline(in, line))
+   {
+      // process line
+      readWorld(line, country, area, pop, count, SIZE);
+
+      // Compute and print the population density
+      double density = 0;
+      if (stoi(area[count]) != 0) // Protect against division by zero
+      {
+         density = stoi(pop[count]) * 1.0 / stoi(area[count]);
+      }
+      out << fixed << setprecision(2);
+      out << setw(20) << left << country[count]  
+         << setw(15) << right << density << endl; 
+      count++;
+   }
+    for (int i = 0; i<SIZE;i++) // Check: let's print the arrays
+    {
+        cout << country[i] << " " << area[i] << endl;
+    }
+   return 0;
+}
+void readWorld(string line, string country[], string area[], string pop[], int count, int size)
+{
+   string words[3]; //create the array to pass to the Split function
+   int n = Split(line, ',', words, 3);
+   if (count < size)
+   {
+        country[count] = words[0];
+        area[count] = words[1];
+        pop[count] = words[2];
+   }
+}
+
+- encapsulation: defined as wrapping up of data and information under a single unit. In Object Oriented Programming, Encapsulation is defined as binding together the data and the functions that manipulates them.
+
+/** Split function to split a sentenct at the seperator */
+
+int Split(string sent, char sep, string a[], int max)
+{
+    if(sent.length() == 0)
+        return 0;
+    string word = "";
+    int j= 0;
+    for(int i=0; i<sent.length() ; i++)
+    {
+        
+        if(sent[i] == sep)
+        {
+             if (j >= max) {
+                cout << "Words array size too small" << endl;
+                return -1;
+            }
+             a[j] = word;
+             j++;
+             word = "";
+        }
+        else
+            word = word + sent[i];
+    }
+    
+    a[j] = word;
+    return j + 1;
+}
+
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main(){
+    ofstream myfile;
+    
+    myfile.open("example.txt");
+    
+    if (myfile.is_open()) {
+        myfile << "Writing this to a file.\n";
+    }
+    
+    myfile.close();
+    
+    return 0;
+}
+
+ifstream in_file("File.txt");
+
+Suppose you wrote a program that reads data from cin. You are now required to reimplement it so that you can read data from a file. You are considering the following changes.
+
+I. Declare an ifstream variable in_file
+
+II. Replace all occurrences of cin with in_file

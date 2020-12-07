@@ -1,0 +1,49 @@
+Chuck It!,What is the prime decomposition of 2019?, 1.three and seven 2.seventeen and five 3.two and one hundred and one 4.three and six hundred and seventy three, 4
+
+Frisbee, What is Puppy Solana's favorite toy?, 1.String 2.Dinosaur 3.Bone 4.Pillows 5.Flashlight 6.Puzzles 7.Shoe, 1
+
+Dinosaur,Which of the following is not a Dinosaur?, 1.Brontosaurus 2.Velocitraptor 3.Tyrannosaurus 4.Brachiosaurus, 2
+
+Ball, Which planet shares its name with a dog?, 1.Venus 2.Pluto 3.Mercury 4.Earth, 2
+
+Rope, Linux is an example of:, 1.Software 2.Application 3.Operating System 4.Browser, 3
+
+Chew Toy, Which of the following is not a computer language?, 1.Basic 2.Lotus 3.Java 4.C++, 2
+
+Stuffed Otter, What is decimal 23 in binary?, 1.101011  2.101110  3.1010  4.101101  5.1011110  6.1011  7.10111,7
+
+Squeaky Toy, What breed of dog has a black tongue?, 1.Black Lab 2.Pomeranian 3.Chow Chow 4.Samoyed, 3
+
+Shoe,How old was the world's oldest dog when he died?, 1.21 2.28 3.29 4.30 5.31, 3
+
+Flashlight,Who is Scooby Doo's Owner?, 1.Shaggy 2.Velma 3.Fred 4.None of the above, 1
+
+String,Give the name of Barack Obama's Dog?, 1.Lucy 2.Lucky 3.Bo 4.Boomer, 3
+
+Stuffed Pig, Whose favorite toy is the Stuffed Pig?, 1.Taylor 2.Christen 3.Emma 4.Anuj, 2
+
+Bed,Is the Dog Bowl a TV show?, 1. Yes 2. No, 2
+
+Pillows,How many Harry Potter books are there?, 1.one 2.seven 3.eight 4.twelve, 2
+
+Leash, What is a group of crows called?, 1. Killing 2. Murder 3. Group 3. Clan, 2
+
+Puzzles, Which rapper designed the Yeezy brand?, 1.Kanye 2.Jay-Z 3.Pitbull 4.Drake, 1
+
+Basketball, How many miles away can you hear a blue whales heartbeat?, 1.three 2.two 3.one 4.four, 2  
+
+Whiffle Ball, What is Emma the pups favorite color?, 1.Yellow 2.Rainbow 3.White 4.Green, 4
+
+Marbles,In what state is hunting unicorns illegal?, 1.Missouri 2.Alabama 3.Michigan 4.Colorado 5.Alaska, 3
+
+Treats,Are dogs allowed to eat chocolate?, 1. No 2. Yes, 1 
+
+T-shirt, What animal does not have sweat glands?, 1. Puppers 2.Cats 3.Chipmunks 4.Hippos 5.Mice, 2
+
+Jewelry, Which one of these songs is written by Sia and Rihanna?, 1.Only Girl 2.Work 3.Umbrella 4.Diamonds 5.Stay, 4
+
+Bouncy Ball, How many bushels in 1 barrels?,  1. 3.3   2. 1.2   3. 12.5   4. 4.4, 1
+
+Bone, Do Doggos like bones?, 1. Maybe 2. No 3. Yes, 3
+
+Charger, What pupper friend has a breathing problem because of his/her breed?, 1.Shrey 2.Prisha 3.Ishika 4.Chester 5.Tofu 6.Kyra, 4

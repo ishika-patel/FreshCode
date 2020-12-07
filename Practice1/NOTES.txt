@@ -1,0 +1,67 @@
+#include <iostream>
+#include <math.h>
+#include <iomanip>
+#include <string>
+using namespace std;
+
+-passing by value: the caller and callee have two independent variables with the same value.
+If the callee modifies the parameter variable, the effect is not visible to the caller.
+- passing by reference: the caller and the callee use the same variable for the parameter. 
+If the callee modifies the parameter variable, the effect is visible to the caller's variable.
+
+BREATHE
+
+dont forget to return something if it asks!!
+
+Escape sequence	Character represented
+\n	New-line
+\t	Horizontal tab
+\v	Vertical tab
+
+- algorithm:  a finite set of steps to solve a problem.
+- literals are constant values that are assined to variables
+-statements end with semicolon
+- Variable: in simple terms is a storage place which has some memory allocated to it.
+    A variable name can consist of alphabets (both upper and lower case), numbers and the underscore ‘_’ character. However, the name ​must not​ start with a number.
+- Multiple arguments to a function are separated by commas
+- cannot cout void functions + nothing is returned
+- return_type​ is the data type of the value that the function returns.
+- function_name​ is the actual name of the function.
+- parameter_list refers to the type, order, and number of the parameters of
+a function. A parameter is like a placeholder. When a function is invoked, you pass a value to the parameter. This value is referred to as actual parameter or argument.
+- function_body contains a collection of statements that define what the function does. The statements inside the function body are executed when a function is called.
+
+- rounding: float x; 
+            x = 15/4;
+                = 3.0
+                integers round down
+- y < x < z ----> ((y < x) && (x < z))
+- (!(x<15 && y>=3)) ---> (x>=15 || y < 3)
+- switch statement: is like a sequence of if statements that compares a single integer value against several constant alternatives
+-switch: if a break statement is missing, Execution falls through the next branch until a break statement is reached
+see days of the week for example.
+- boolean: 1 is true, 0 is false
+
+#include <math.h>
+- double sqrt(double)
+-double pow(double a, double b) ---> a^
+
+#include <iomanip>
+- cout << setprecision(a);
+- cout.setprecision(a);
+
+> greater than
+
+< less than
+
+>= greater than or equal
+
+<= less than or equal
+
+== equal to
+
+!= not equal to
+
+&&​ (AND) returns true if and only if both operands are true 
+||​ (OR) returns true if one or both operands are true 
+ !​ (NOT) returns true if operand is false and false if operand is true 

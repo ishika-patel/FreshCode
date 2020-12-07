@@ -1,0 +1,50 @@
+Ishika,Black Lab,12, Female, Chuck It!,Purple,1500
+Emma,Husky,1,Frisbee,Female,Green,200000
+Mackenzie,Pug,4,Dinosaur,Blue,1000
+Solana,Pug,6,Female,String,Red,14
+Lakshya,BullDog,Female,7,Charger,Orange,7
+Kyra,Chow Chow,7,Female,Charger,Yellow,78
+Cate,Black Lab,9,Female,String,Green,26
+Shrey,Greyhound,3,Male,Frisbee,Blue,69
+Etash,Husky,2,Male,Chew Toy,Indigo,43
+Lucy,Akita,6,Female,Shoe,Violet,12
+Ashish,Chow Chow,16,Male,Chew Toy,Magenta,19
+Danny,Samoyed,3,Male, Ball,Baby Blue,1
+Aneri,Dalmatian,5,Female, Rope,Sea Green,0
+Taylor,Samoyed,6,Female,Chuck It!,Olive Green,0
+Sydnie,BullDog,9,Female,Stuffed Pig,Hot Pink,56
+Anuj,Corgi,6,Male,Shoe,Teal,4
+Christen,Black Lab,15,Female,Stuffed Pig,Burnt Orange,5
+Joy,Greyhound,14,Female,Flashlight,Brown,17
+Wolfie,Husky,9,Male,Squeaky Toy,Black,8
+Armani,Corgi,8,Male, Bed,White,1900
+Gucci,Dalmatian,5,Male,Stuffed Otter,Rainbow,65
+Prada,Akita,2,Female,Stuffed Otter,White,66
+Rio,BullDog,17,Male,Flashlight,Red,7
+Prince,Akita,8,Male,Dinosaur,Orange,8
+Juno,Husky,12, Male, Rope,Sunshine Yellow,10
+Nico,Chow Chow,6, Female,Squeaky Toy,Purple,11
+Prisha,Samoyed,5,Female,Ball,Grey,99
+Chiti,Black Lab,15,Female,Bed,Red,56
+Drishti,Chihuahua,18,Female,Pillows,Lime,34
+Ritika,Greyhound,11,Female,Leash,Fuchsia,29
+Chester,Pug,4,Male,Puzzles,Plum,65
+Angel,Corgi,10,Female,Basketball,Maroon,93
+Ramen,Yellow Lab,1,Male,Pillows,Cyan,73
+Gulab Jamun,Samoyed,9, Male, Whiffle Ball,Gold,20
+Kaju,Yellow Lab,8,Female,Marbles,Moss,13
+Mango,BullDog,5,Female,Treats,Ivory,6
+Maya,Dalmatian,17,Female,Bone,Lavender,1
+Phoebe,Whippet,19,Female,Jewelry,Blush,5
+Benji,Chow Chow,4,Male,Basketball,Bronze,3
+Chandan,Greyhound,7, Male,T-shirt,Silver,7
+Carmen,Chihuahua,8,Female,Jewelry,Flamingo Pink,13
+Chewy,Black Lab,3,Male,Leash,Navy,9
+Maggi,BullDog,9,Female,Puzzles,Cedar,17
+Orange,Pug,10,Female,Whiffle Ball,Espresso,11
+Manny,Chihuahua,12,Male,Bouncy Ball,Walnut,0
+Pat,BullDog,18,Female,Treats,Pine,23
+Lenny,Husky,3,Male,Bone,Mauve,29
+Will,Dalmatian,8,Male,T-shirt,Mustard,31
+Princess,Chow Chow,13,Female,Bouncy Ball,Egg Nog,37
+Rani,Black Lab,1,Female,Marbles,Banana,41
